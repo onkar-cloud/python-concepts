@@ -1,0 +1,15 @@
+# Enforce LF line endings for Python and Jupyter files
+*.py     text eol=lf
+*.ipynb  text eol=lf
+
+# Optional: enforce LF for other text-based files
+*.txt    text eol=lf
+*.md     text eol=lf
+*.csv    text eol=lf
+
+# Keep binary files untouched
+*.png    binary
+*.jpg    binary
+*.jpeg   binary
+*.gif    binary
+*.pdf    binary
